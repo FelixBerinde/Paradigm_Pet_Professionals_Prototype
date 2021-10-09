@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="pppstylesheet.css">
+    <title>Paradigm Pet Professionals</title>
+  </head>
+  <body>
+    <!--Create navagation bar-->
+        <nav class="navbar">
+        <div class="container-fluid">
+            <a href="index.html">
+            <img src="imgs/logo.jpg" alt="logo" width="25%" height="25%" name="paradigmPetProfessionals">
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cats.html">Cats</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="dogs.html">Dogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="birds.html">Birds</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="FAQs.html">FAQ's</a>
+                  </li>
+            </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search.." aria-label="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+          <a class="btn btn-primary" href="#" role="button">Request a Consultation</a>
+        </div>
+        </nav>
+    <!--Homepage Content-->
+        <Main class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 order-2 order-lg-1">
+                <section class="maincnt">
+                        <div class="landing">
+                            <h1>Welcome to Paradigm Pet Professionals</h1>
+                              <p id="slogan">
+                                <i>Evidence-base pet care advice for every pet lover</i>
+                              </p>
+                              <article class="maincontent" name="maincontent">
+                                <p>Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.
+                                Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion.
+                                </p>
+                        </div>
+                        <div class="resource">
+                            <img src="/imgs/fish.jpg" alt="Our Team" height="auto" width="100%">
+                            <p>Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:
+                                <ul>
+                                    <li><a href="https://theshelterpetproject.org/" name="General Adoption Resources" target="_blank">General Adoption Resources</a></li>
+                                    <li><a href="https://www.aspca.org/" target="_blank" name="ASPCA">ASPCA</a></li>
+                                    <li><a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/" target="_blank" name="fishRescue">Fish Rescue</a></li>
+                                    <li><a href=">https://savethesnakes.org/snakerescuecall/" target="_blank" name="snakeRescue">Snake Rescue</a></li>
+                                    <li><a href="https://ftlob.rescuegroups.org/" target="_blank" name="birdRescue">Bird Rescue</a></li> 
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="aboutus" name="aboutus">
+                            <h2>About Us:</h2>
+                                <p>Paradigm Pet Professionals has 12 years’ experience working with pet owners, certifications in pet health and nutrition, and customer recognition for outstanding support.
+                                Our services include virtual consultations and presentations, one-on-one consultations concerning individual pets, group presentations regarding general pet care (can be tailored to the needs of the group).
+                                </p>
+                            <img src="/imgs/team.jpg" alt="Our Team" height="auto" width="100%">
+                            <h5>Our Team</h5>
+                        </p>
+                    <div>
+                </section>
+            </div>
+            <div class="col-lg-6 order-1 order-xl-2">
+              <h3>We would love to hear from you!</h3>
+              <section class="formfield">
+                <form class="row">
+                    <div class="col-12">
+                    <label for="inputName" class="form-label">Name:</label>
+                    <input type="name" class="form-control" id="inputName" placeholder="John Doe" required>
+                    </div>
+                    <div class="col-12">
+                    <label for="inputPhoneNumber" class="form-label">Phone Number:</label>
+                    <input type="tel" class="form-control" id="inputPhoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-867-5309"
+                    required>
+                    </div>
+                    <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">E-mail:</label>
+                    <input type="text" class="form-control" id="inputEmail" pattern="[^ @]*@[^ @]*" placeholder="JohnDoe@yahoo.com" required>
+                    </div>
+                    <div class="col-md-6">
+                    <label for="inputTimezone" class="form-label">Timezone:</label>
+                    <input type="text" class="form-control" id="inputTimezone" placeholder="GMT-05:00">
+                    </div>
+                    <div class="col-12">
+                    <label for="inputPetName" class="form-label">Pet Name:</label>
+                    <input type="text" class="form-control" id="inputPetName">
+                    </div>
+                    <div class="col-6">
+                        <label for="inputAgeOfPet" class="form-label">Age of Pet:</label>
+                        <input type="text" class="form-control" id="inputPetName">
+                    </div>
+                    <div class="col-6">
+                        <label for="inputTypeOfPet" class="form-label">Type of Pet:</label>
+                        <input type="text" class="form-control" id="inputTypeOfPet">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputTellUs" class="form-label">Tell us how we can help:</label>
+                        <textarea class="form-control" id="inputHowToHelp" rows="4"></textarea>
+                    </div>
+                    <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+                <p>We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment,
+                  to completing the necessary paperwork, to bringing your new loved one home. Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.
+                </p>
+              </section>
+            </div>
+          </div>
+        </Main>
+    <!--Secondary navagation-->
+        <footer>
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cats.html">Cats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="dogs.html">Dogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="birds.html">Birds</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="FAQs.html">FAQ's</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href=""><u>Request a Consultation</u></a>
+              </li>
+              <li class="nav-item">
+              <p> &copy;Paradigm Pet Professionals</p>
+              </ul>
+        </ul>
+        </footer>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
