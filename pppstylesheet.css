@@ -1,3 +1,7 @@
+#logo {
+    margin: 3px;
+}
+
 img{
     text-align: center;
 }
@@ -15,12 +19,17 @@ h3{
     border: 1px solid white;
 }
 .navbar .nav-item {
-    margin-inline: 1rem;
+    margin: 1rem;
     border: 1px solid white;
     border-radius: 5px;
 }
 .btn .btn-primary {
     color: #6699CC;
+}
+
+#paradigmPetProfessionals {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 /*Main Content*/
@@ -65,11 +74,11 @@ footer .nav-link{
     text-decoration: underline;
 }
 footer p {
-    margin-left: 15em;
+    margin-left: 10rem;
 }
 
 footer li:nth-last-child(2) {
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 /*Form Content*/
