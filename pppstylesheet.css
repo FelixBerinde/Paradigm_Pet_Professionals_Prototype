@@ -10,6 +10,9 @@ h3{
     text-align: center;
     margin-top: 1em;
 }
+main {
+    padding: 5px;
+}
 /*Navagation*/
 .navbar {
     background-color: #003B6D;
